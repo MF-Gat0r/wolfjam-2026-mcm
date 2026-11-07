@@ -1,0 +1,5 @@
+/time set day
+/set
+/setworldspawn
+/time set
+/time set day

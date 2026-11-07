@@ -8,19 +8,19 @@ public class RoomResetEntityWalksOnTheBlockProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("redblind") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
+		if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("pro") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
 			{
 				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 				_vars.redResults = true;
 				_vars.markSyncDirty();
 			}
-		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("greenblind") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
+		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("deut") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
 			{
 				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 				_vars.greenResults = true;
 				_vars.markSyncDirty();
 			}
-		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("yellowblind") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
+		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("tri") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
 			{
 				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 				_vars.yellowResults = true;

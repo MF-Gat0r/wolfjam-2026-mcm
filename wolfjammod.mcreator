@@ -169,6 +169,59 @@
           "src/main/java/net/mcreator/wolfjammod/procedures/BlockColorChangeProcedure.java"
         ]
       }
+    },
+    {
+      "name": "RoomAssignerEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_assigner_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/RoomAssignerEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RoomAssigner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_assigner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/block/RoomAssignerBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/room_assigner.json",
+          "src/main/resources/assets/wolfjammod/blockstates/room_assigner.json",
+          "src/main/java/net/mcreator/wolfjammod/block/entity/RoomAssignerBlockEntity.java",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/room_assigner.json",
+          "src/main/resources/assets/wolfjammod/models/item/room_assigner.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -201,6 +254,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "room_count",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -213,7 +272,8 @@
       "item.wolfjammod.custom_color_block": "Custom Color Block",
       "block.wolfjammod.room_reset": "Room Reset",
       "block.wolfjammod.counter_lava_block": "Counter Lava Block",
-      "block.wolfjammod.custom_color_block": "Custom Color Block"
+      "block.wolfjammod.custom_color_block": "Custom Color Block",
+      "block.wolfjammod.room_assigner": "Room Assigner"
     }
   },
   "metadata": {
