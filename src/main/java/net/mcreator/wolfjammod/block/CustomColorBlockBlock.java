@@ -6,8 +6,14 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.util.StringRepresentable;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.wolfjammod.procedures.BlockColorChangeProcedure;
 
 public class CustomColorBlockBlock extends Block {
 	public static final EnumProperty<EnumColorAssignmentProperty> ENUM_COLOR_ASSIGNMENT = EnumProperty.create("enum_color_assignment", EnumColorAssignmentProperty.class);
@@ -29,6 +35,12 @@ public class CustomColorBlockBlock extends Block {
 		if (state == null)
 			return null;
 		return state.setValue(ENUM_COLOR_ASSIGNMENT, EnumColorAssignmentProperty.COLOR_FRIENDLY);
+	}
+
+	@Override
+	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
+		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
+		BlockColorChangeProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	public enum EnumColorAssignmentProperty implements StringRepresentable {

@@ -44,11 +44,20 @@
       "registry_name": "counter_lava_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_0.json",
+          "src/main/resources/assets/wolfjammod/blockstates/counter_lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_7.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_2.json",
           "src/main/resources/data/wolfjammod/loot_table/blocks/counter_lava_block.json",
           "src/main/resources/assets/wolfjammod/models/item/counter_lava_block.json",
           "src/main/java/net/mcreator/wolfjammod/block/CounterLavaBlockBlock.java",
-          "src/main/resources/assets/wolfjammod/blockstates/counter_lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_1.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_4.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_8.json",
           "src/main/java/net/mcreator/wolfjammod/block/entity/CounterLavaBlockBlockEntity.java",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_3.json",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block_6.json",
           "src/main/resources/assets/wolfjammod/models/block/counter_lava_block.json"
         ]
       },
@@ -97,11 +106,20 @@
       "registry_name": "custom_color_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_3.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_7.json",
+          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlockBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_0.json",
+          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_8.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2.json",
           "src/main/resources/data/wolfjammod/loot_table/blocks/custom_color_block.json",
           "src/main/resources/assets/wolfjammod/models/item/custom_color_block.json",
           "src/main/resources/assets/wolfjammod/models/block/custom_color_block.json",
-          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlockBlock.java",
-          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block.json"
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_6.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_1.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_4.json"
         ]
       },
       "path": "~/blocks"
@@ -109,7 +127,7 @@
     {
       "name": "TintBlocks",
       "type": "code",
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "tint_blocks",
       "metadata": {
@@ -117,6 +135,40 @@
           "src/main/java/net/mcreator/wolfjammod/TintBlocks.java"
         ]
       }
+    },
+    {
+      "name": "CustomColorBlock2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_color_block_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_8.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_6.json",
+          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_1.json",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/custom_color_block_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_3.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_0.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2.json",
+          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlock2Block.java",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_4.json",
+          "src/main/resources/assets/wolfjammod/models/item/custom_color_block_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2_7.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CounterLavaBlockBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "counter_lava_block_block_added",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -161,7 +213,8 @@
       "item.wolfjammod.custom_color_block": "Custom Color Block",
       "block.wolfjammod.room_reset": "Room Reset",
       "block.wolfjammod.counter_lava_block": "Counter Lava Block",
-      "block.wolfjammod.custom_color_block": "Custom Color Block"
+      "block.wolfjammod.custom_color_block": "Custom Color Block",
+      "block.wolfjammod.custom_color_block_2": "Custom Color Block"
     }
   },
   "metadata": {

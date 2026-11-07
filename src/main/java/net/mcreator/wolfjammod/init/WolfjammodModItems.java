@@ -21,7 +21,7 @@ public class WolfjammodModItems {
 	static {
 		ROOM_RESET = block(WolfjammodModBlocks.ROOM_RESET);
 		COUNTER_LAVA_BLOCK = block(WolfjammodModBlocks.COUNTER_LAVA_BLOCK);
-		CUSTOM_COLOR_BLOCK = block(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK);
+		CUSTOM_COLOR_BLOCK = block(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK, new Item.Properties().fireResistant());
 	}
 
 	// Start of user code block custom items

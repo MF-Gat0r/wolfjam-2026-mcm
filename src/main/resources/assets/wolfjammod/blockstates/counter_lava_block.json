@@ -1,7 +1,31 @@
 {
   "variants": {
-    "": {
-      "model": "wolfjammod:block/counter_lava_block"
+    "enum_color_assignment=color_friendly": {
+      "model": "wolfjammod:block/counter_lava_block_0"
+    },
+    "enum_color_assignment=grey": {
+      "model": "wolfjammod:block/counter_lava_block_1"
+    },
+    "enum_color_assignment=brown": {
+      "model": "wolfjammod:block/counter_lava_block_2"
+    },
+    "enum_color_assignment=red": {
+      "model": "wolfjammod:block/counter_lava_block_3"
+    },
+    "enum_color_assignment=yellow": {
+      "model": "wolfjammod:block/counter_lava_block_4"
+    },
+    "enum_color_assignment=green": {
+      "model": "wolfjammod:block/counter_lava_block_5"
+    },
+    "enum_color_assignment=green2": {
+      "model": "wolfjammod:block/counter_lava_block_6"
+    },
+    "enum_color_assignment=orange": {
+      "model": "wolfjammod:block/counter_lava_block_7"
+    },
+    "enum_color_assignment=orange2": {
+      "model": "wolfjammod:block/counter_lava_block_8"
     }
   }
 }

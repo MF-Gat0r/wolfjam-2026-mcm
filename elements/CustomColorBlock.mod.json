@@ -454,8 +454,11 @@
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
-    "immuneToFire": false,
-    "creativeTabs": [],
+    "immuneToFire": true,
+    "creativeTabs": [
+      "BUILDING_BLOCKS",
+      "BREWING"
+    ],
     "destroyTool": "Not specified",
     "customDrop": "",
     "dropAmount": 1,
@@ -524,6 +527,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockPlayedBy": "BlockColorChange",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
