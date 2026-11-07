@@ -45,7 +45,7 @@ public class TintBlocks {
                 Minecraft.getInstance().gameRenderer.loadEffect(
                         ResourceLocation.fromNamespaceAndPath(
                                 "wolfjammod",
-                                "color_correction"
+                                "shaders/post/color_correction.json"
                         )
                 );
 

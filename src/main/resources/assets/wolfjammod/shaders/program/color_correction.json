@@ -6,7 +6,7 @@
     "dstrgb": "zero"
   },
   "vertex": "blit",
-  "fragment": "color_correction",
+  "fragment": "wolfjammod:color_correction",
   "attributes": [
     "Position"
   ],
@@ -16,6 +16,7 @@
     }
   ],
   "uniforms": [
+    { "name": "OutSize", "type": "float", "count": 2, "values": [ 1.0, 1.0 ] },
     {
       "name": "ProjMat",
       "type": "matrix4x4",
