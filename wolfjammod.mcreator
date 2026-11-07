@@ -97,11 +97,20 @@
       "registry_name": "custom_color_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_3.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_7.json",
+          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlockBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_0.json",
+          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_8.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2.json",
           "src/main/resources/data/wolfjammod/loot_table/blocks/custom_color_block.json",
           "src/main/resources/assets/wolfjammod/models/item/custom_color_block.json",
           "src/main/resources/assets/wolfjammod/models/block/custom_color_block.json",
-          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlockBlock.java",
-          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block.json"
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_6.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_1.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_4.json"
         ]
       },
       "path": "~/blocks"

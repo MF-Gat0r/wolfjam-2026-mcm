@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:water_overlay",
+    "texture": "colorfriendly",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,395 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "states": [],
+    "states": [
+      {
+        "texture": "colorfriendly",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "color_friendly"
+          }
+        ]
+      },
+      {
+        "texture": "greymain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "grey"
+          }
+        ]
+      },
+      {
+        "texture": "brownmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "brown"
+          }
+        ]
+      },
+      {
+        "texture": "redmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "red"
+          }
+        ]
+      },
+      {
+        "texture": "yellowmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "yellow"
+          }
+        ]
+      },
+      {
+        "texture": "greenmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "green"
+          }
+        ]
+      },
+      {
+        "texture": "greenvar1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "green2"
+          }
+        ]
+      },
+      {
+        "texture": "orangemain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "orange"
+          }
+        ]
+      },
+      {
+        "texture": "orangevar1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "color_friendly",
+                "grey",
+                "brown",
+                "red",
+                "yellow",
+                "green",
+                "green2",
+                "orange",
+                "orange2"
+              ],
+              "name": "CUSTOM:enum_color_assignment",
+              "type": "string"
+            },
+            "value": "orange2"
+          }
+        ]
+      }
+    ],
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
@@ -37,7 +425,24 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "arrayData": [
+          "color_friendly",
+          "grey",
+          "brown",
+          "red",
+          "yellow",
+          "green",
+          "green2",
+          "orange",
+          "orange2"
+        ],
+        "name": "CUSTOM:enum_color_assignment",
+        "type": "string",
+        "value": "color_friendly"
+      }
+    ],
     "name": "Custom Color Block",
     "specialInformation": {
       "fixedValue": []
