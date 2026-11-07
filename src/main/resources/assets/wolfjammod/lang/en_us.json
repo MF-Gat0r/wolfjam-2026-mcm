@@ -1,1 +1,5 @@
-{}
+{
+  "item.wolfjammod.room_reset": "Room Reset",
+  "item.wolfjammod.counter_lava_block": "Counter Lava Block",
+  "item.wolfjammod.custom_color_block": "Custom Color Block"
+}

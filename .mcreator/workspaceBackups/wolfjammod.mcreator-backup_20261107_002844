@@ -1,0 +1,148 @@
+{
+  "mod_elements": [
+    {
+      "name": "RoomReset",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wolfjammod/items/room_reset.json",
+          "src/main/resources/assets/wolfjammod/models/block/room_reset.json",
+          "src/main/resources/assets/wolfjammod/models/item/room_reset.json",
+          "src/main/resources/assets/wolfjammod/blockstates/room_reset.json",
+          "src/main/java/net/mcreator/wolfjammod/block/RoomResetBlock.java",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/room_reset.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RoomResetEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_reset_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/RoomResetEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/scripts"
+    },
+    {
+      "name": "CounterLavaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "counter_lava_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wolfjammod/loot_table/blocks/counter_lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/item/counter_lava_block.json",
+          "src/main/java/net/mcreator/wolfjammod/block/CounterLavaBlockBlock.java",
+          "src/main/resources/assets/wolfjammod/blockstates/counter_lava_block.json",
+          "src/main/resources/assets/wolfjammod/items/counter_lava_block.json",
+          "src/main/java/net/mcreator/wolfjammod/block/entity/CounterLavaBlockBlockEntity.java",
+          "src/main/resources/assets/wolfjammod/models/block/counter_lava_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CounterEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "counter_entity_walks_on_the_block"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playerErrors",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "levelName",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "redResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "greenResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "yellowResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wolfjammod.room_reset": "Room Reset",
+      "item.wolfjammod.counter_lava_block": "Counter Lava Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModBlocks.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModBlockEntities.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/wolfjammod/WolfjammodMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/wolfjammod/network/WolfjammodModVariables.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "scripts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wolfjammod",
+    "modName": "WolfjamMod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.wolfjammod"
+  },
+  "mcreatorVersion": 202600233518
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wolfjammod:block/counter_lava_block"
+    }
+  }
+}

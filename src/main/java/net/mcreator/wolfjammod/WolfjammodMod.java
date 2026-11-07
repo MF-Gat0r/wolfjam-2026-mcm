@@ -20,6 +20,12 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.wolfjammod.network.WolfjammodModVariables;
+import net.mcreator.wolfjammod.init.WolfjammodModTabs;
+import net.mcreator.wolfjammod.init.WolfjammodModItems;
+import net.mcreator.wolfjammod.init.WolfjammodModBlocks;
+import net.mcreator.wolfjammod.init.WolfjammodModBlockEntities;
+
 import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -46,6 +52,11 @@ public class WolfjammodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		WolfjammodModBlocks.REGISTRY.register(modEventBus);
+		WolfjammodModBlockEntities.REGISTRY.register(modEventBus);
+		WolfjammodModItems.REGISTRY.register(modEventBus);
+		WolfjammodModTabs.REGISTRY.register(modEventBus);
+		WolfjammodModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
