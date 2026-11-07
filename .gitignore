@@ -1,0 +1,30 @@
+# took this gitignore from https://github.com/Goldorion/Paper-Generator-MCreator/blob/26.1.2/.gitignore
+
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+build
+*.ipr
+*.iws
+*.iml
+.idea
+
+# Mac OS Garbage    
+.DS_Store
+
+# VSCode
+.vscode
+*.code-workspace
+
+# BBedit
+*.bbproject
+
+# Ignore Gradle project-specific cache directory
+.gradle
