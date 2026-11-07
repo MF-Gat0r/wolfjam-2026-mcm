@@ -5,6 +5,7 @@ import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.PostChain;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -64,6 +65,12 @@ public class TintBlocks {
 
         while (TOGGLE_COLOR_CORRECTION.consumeClick()) {
             setColorMode(colorMode + 1);
+
+            if (Minecraft.getInstance().player != null) {
+                String[] names = {"Off", "Protanopia (red)", "Deuteranopia (green)", "Tritanopia (blue-yellow)"};
+                Minecraft.getInstance().player.displayClientMessage(
+                        Component.literal("Color mode: " + names[colorMode]), true);
+            }
         }
 
         // Keep the shader uniform in sync with the selected mode

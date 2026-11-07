@@ -51,6 +51,8 @@ void main() {
         shift = vec3(0.0, 0.7 * err.r + err.g, 0.7 * err.r + err.b);
     }
 
-    vec3 corrected = clamp(linear + shift, 0.0, 1.0);
+    // Strength > 1 exaggerates the shift so it is clearly visible when testing
+    const float STRENGTH = 2.5;
+    vec3 corrected = clamp(linear + shift * STRENGTH, 0.0, 1.0);
     fragColor = vec4(pow(corrected, vec3(1.0 / 2.2)), originalColor.a);
 }
