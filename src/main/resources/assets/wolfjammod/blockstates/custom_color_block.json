@@ -1,7 +1,31 @@
 {
   "variants": {
-    "": {
-      "model": "wolfjammod:block/custom_color_block"
+    "enum_color_assignment=color_friendly": {
+      "model": "wolfjammod:block/custom_color_block_0"
+    },
+    "enum_color_assignment=grey": {
+      "model": "wolfjammod:block/custom_color_block_1"
+    },
+    "enum_color_assignment=brown": {
+      "model": "wolfjammod:block/custom_color_block_2"
+    },
+    "enum_color_assignment=red": {
+      "model": "wolfjammod:block/custom_color_block_3"
+    },
+    "enum_color_assignment=yellow": {
+      "model": "wolfjammod:block/custom_color_block_4"
+    },
+    "enum_color_assignment=green": {
+      "model": "wolfjammod:block/custom_color_block_5"
+    },
+    "enum_color_assignment=green2": {
+      "model": "wolfjammod:block/custom_color_block_6"
+    },
+    "enum_color_assignment=orange": {
+      "model": "wolfjammod:block/custom_color_block_7"
+    },
+    "enum_color_assignment=orange2": {
+      "model": "wolfjammod:block/custom_color_block_8"
     }
   }
 }
