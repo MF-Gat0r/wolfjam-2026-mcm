@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.wolfjammod.block.entity.RoomAssignerBlockEntity;
 import net.mcreator.wolfjammod.block.entity.CounterLavaBlockBlockEntity;
 import net.mcreator.wolfjammod.WolfjammodMod;
 
@@ -23,6 +24,7 @@ import net.mcreator.wolfjammod.WolfjammodMod;
 public class WolfjammodModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, WolfjammodMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CounterLavaBlockBlockEntity>> COUNTER_LAVA_BLOCK = register("counter_lava_block", WolfjammodModBlocks.COUNTER_LAVA_BLOCK, CounterLavaBlockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<RoomAssignerBlockEntity>> ROOM_ASSIGNER = register("room_assigner", WolfjammodModBlocks.ROOM_ASSIGNER, RoomAssignerBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,5 +35,6 @@ public class WolfjammodModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, COUNTER_LAVA_BLOCK.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ROOM_ASSIGNER.get(), SidedInvWrapper::new);
 	}
 }

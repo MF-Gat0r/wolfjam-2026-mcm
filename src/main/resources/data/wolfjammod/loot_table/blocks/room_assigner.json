@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "wolfjammod:blocks/room_assigner",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wolfjammod:room_assigner"
+        }
+      ]
+    }
+  ]
+}

@@ -18,10 +18,12 @@ public class WolfjammodModItems {
 	public static final DeferredItem<Item> ROOM_RESET;
 	public static final DeferredItem<Item> COUNTER_LAVA_BLOCK;
 	public static final DeferredItem<Item> CUSTOM_COLOR_BLOCK;
+	public static final DeferredItem<Item> ROOM_ASSIGNER;
 	static {
 		ROOM_RESET = block(WolfjammodModBlocks.ROOM_RESET);
 		COUNTER_LAVA_BLOCK = block(WolfjammodModBlocks.COUNTER_LAVA_BLOCK);
 		CUSTOM_COLOR_BLOCK = block(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK, new Item.Properties().fireResistant());
+		ROOM_ASSIGNER = block(WolfjammodModBlocks.ROOM_ASSIGNER);
 	}
 
 	// Start of user code block custom items

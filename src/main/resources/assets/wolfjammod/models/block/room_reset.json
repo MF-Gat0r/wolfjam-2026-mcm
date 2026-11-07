@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "minecraft:block/birch_planks",
-    "up": "minecraft:block/blue_glazed_terracotta",
-    "north": "minecraft:block/bubble_coral_block",
-    "east": "minecraft:block/birch_planks",
-    "south": "minecraft:block/budding_amethyst",
-    "west": "minecraft:block/brown_wool",
-    "particle": "minecraft:block/birch_planks"
+    "all": "minecraft:block/crimson_door_bottom",
+    "particle": "minecraft:block/crimson_door_bottom"
   },
   "render_type": "solid"
 }

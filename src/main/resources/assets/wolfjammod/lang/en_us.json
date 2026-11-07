@@ -4,5 +4,6 @@
   "item.wolfjammod.custom_color_block": "Custom Color Block",
   "block.wolfjammod.room_reset": "Room Reset",
   "block.wolfjammod.counter_lava_block": "Counter Lava Block",
-  "block.wolfjammod.custom_color_block": "Custom Color Block"
+  "block.wolfjammod.custom_color_block": "Custom Color Block",
+  "block.wolfjammod.room_assigner": "Room Assigner"
 }

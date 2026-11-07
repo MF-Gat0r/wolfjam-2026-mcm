@@ -2,14 +2,14 @@
   "_fv": 89,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:birch_planks",
+    "texture": "minecraft:crimson_door_bottom",
     "textureTop": "minecraft:blue_glazed_terracotta",
     "textureLeft": "",
     "textureFront": "minecraft:bubble_coral_block",
     "textureRight": "minecraft:brown_wool",
     "textureBack": "minecraft:budding_amethyst",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -57,7 +57,8 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      "OP_BLOCKS"
+      "BUILDING_BLOCKS",
+      "BREWING"
     ],
     "destroyTool": "Not specified",
     "customDrop": "",
