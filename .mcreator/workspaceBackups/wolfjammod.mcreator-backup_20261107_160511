@@ -161,7 +161,7 @@
     {
       "name": "RoomAssignerEntityWalksOnTheBlock",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "room_assigner_entity_walks_on_the_block",
       "metadata": {
@@ -252,6 +252,25 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "ResetOnLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_on_load",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/ResetOnLoadProcedure.java"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -290,6 +309,24 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "lastX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -303,7 +340,7 @@
       "block.wolfjammod.room_reset": "Room Reset",
       "block.wolfjammod.custom_color_block": "Custom Color Block",
       "block.wolfjammod.room_assigner": "Room Assigner",
-      "block.wolfjammod.lava_block": "Custom Color Block",
+      "block.wolfjammod.lava_block": "LAVABLOCK",
       "block.wolfjammod.counter_lava_block": "Counter Lava Block"
     }
   },

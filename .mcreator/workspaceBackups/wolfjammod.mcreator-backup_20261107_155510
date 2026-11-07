@@ -252,6 +252,25 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "ResetOnLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_on_load",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/ResetOnLoadProcedure.java"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -287,6 +306,18 @@
     },
     {
       "name": "room_count",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastY",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"

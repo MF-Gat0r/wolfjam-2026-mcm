@@ -72,6 +72,9 @@ public class WolfjammodModVariables {
 		clone.greenResults = original.greenResults;
 		clone.yellowResults = original.yellowResults;
 		clone.room_count = original.room_count;
+		clone.lastX = original.lastX;
+		clone.lastY = original.lastY;
+		clone.lastZ = original.lastZ;
 		if (!event.isWasDeath()) {
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
@@ -85,6 +88,9 @@ public class WolfjammodModVariables {
 		public boolean greenResults = false;
 		public boolean yellowResults = false;
 		public double room_count = 0;
+		public double lastX = 0;
+		public double lastY = 0;
+		public double lastZ = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -95,6 +101,9 @@ public class WolfjammodModVariables {
 			nbt.putBoolean("greenResults", greenResults);
 			nbt.putBoolean("yellowResults", yellowResults);
 			nbt.putDouble("room_count", room_count);
+			nbt.putDouble("lastX", lastX);
+			nbt.putDouble("lastY", lastY);
+			nbt.putDouble("lastZ", lastZ);
 			return nbt;
 		}
 
@@ -106,6 +115,9 @@ public class WolfjammodModVariables {
 			greenResults = nbt.getBoolean("greenResults");
 			yellowResults = nbt.getBoolean("yellowResults");
 			room_count = nbt.getDouble("room_count");
+			lastX = nbt.getDouble("lastX");
+			lastY = nbt.getDouble("lastY");
+			lastZ = nbt.getDouble("lastZ");
 		}
 
 		public void markSyncDirty() {
