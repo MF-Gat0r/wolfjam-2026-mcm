@@ -6,7 +6,12 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.wolfjammod.procedures.RoomResetEntityWalksOnTheBlockProcedure;
 
 public class RoomResetBlock extends Block {
 	public static final BooleanProperty WALKED_ON = BooleanProperty.create("walked_on");
@@ -28,5 +33,11 @@ public class RoomResetBlock extends Block {
 		if (state == null)
 			return null;
 		return state.setValue(WALKED_ON, false);
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		RoomResetEntityWalksOnTheBlockProcedure.execute(entity);
 	}
 }

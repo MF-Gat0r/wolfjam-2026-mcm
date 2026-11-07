@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "color_assignment=orange": {
+      "model": "wolfjammod:block/lava_block_0"
+    },
+    "color_assignment=grey": {
+      "model": "wolfjammod:block/lava_block_1"
+    },
+    "color_assignment=brown": {
+      "model": "wolfjammod:block/lava_block_2"
+    },
+    "color_assignment=red": {
+      "model": "wolfjammod:block/lava_block_3"
+    },
+    "color_assignment=yellow": {
+      "model": "wolfjammod:block/lava_block_4"
+    },
+    "color_assignment=green": {
+      "model": "wolfjammod:block/lava_block_5"
+    },
+    "color_assignment=green1": {
+      "model": "wolfjammod:block/lava_block_6"
+    },
+    "color_assignment=color_friendly": {
+      "model": "wolfjammod:block/lava_block_7"
+    },
+    "color_assignment=orange1": {
+      "model": "wolfjammod:block/lava_block_8"
+    },
+    "color_assignment=light_green": {
+      "model": "wolfjammod:block/lava_block_9"
+    },
+    "color_assignment=dark_green": {
+      "model": "wolfjammod:block/lava_block_10"
+    },
+    "color_assignment=red2": {
+      "model": "wolfjammod:block/lava_block_11"
+    },
+    "color_assignment=orange3": {
+      "model": "wolfjammod:block/lava_block_12"
+    },
+    "color_assignment=peach": {
+      "model": "wolfjammod:block/lava_block_13"
+    },
+    "color_assignment=coral": {
+      "model": "wolfjammod:block/lava_block_14"
+    },
+    "color_assignment=yellow2": {
+      "model": "wolfjammod:block/lava_block_15"
+    },
+    "color_assignment=pale_cream": {
+      "model": "wolfjammod:block/lava_block_16"
+    },
+    "color_assignment=hot_pink": {
+      "model": "wolfjammod:block/lava_block_17"
+    },
+    "color_assignment=magenta": {
+      "model": "wolfjammod:block/lava_block_18"
+    },
+    "color_assignment=dark_magenta": {
+      "model": "wolfjammod:block/lava_block_19"
+    },
+    "color_assignment=orange_red": {
+      "model": "wolfjammod:block/lava_block_20"
+    },
+    "color_assignment=rust_red": {
+      "model": "wolfjammod:block/lava_block_21"
+    },
+    "color_assignment=dbrown_red": {
+      "model": "wolfjammod:block/lava_block_22"
+    },
+    "color_assignment=light_pink": {
+      "model": "wolfjammod:block/lava_block_23"
+    }
+  }
+}

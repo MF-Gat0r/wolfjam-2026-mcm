@@ -26,7 +26,7 @@ public class CounterLavaBlockBlockEntity extends RandomizableContainerBlockEntit
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(9, ItemStack.EMPTY);
 
 	public CounterLavaBlockBlockEntity(BlockPos position, BlockState state) {
-		super(WolfjammodModBlockEntities.COUNTER_LAVA_BLOCK.get(), position, state);
+		super(WolfjammodModBlockEntities.LAVA_BLOCK.get(), position, state);
 	}
 
 	@Override

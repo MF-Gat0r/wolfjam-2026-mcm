@@ -22,14 +22,14 @@ public class WolfjammodModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WolfjammodModBlocks.ROOM_RESET.get().asItem());
-			tabData.accept(WolfjammodModBlocks.COUNTER_LAVA_BLOCK.get().asItem());
 			tabData.accept(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK.get().asItem());
 			tabData.accept(WolfjammodModBlocks.ROOM_ASSIGNER.get().asItem());
+			tabData.accept(WolfjammodModBlocks.LAVA_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
 			tabData.accept(WolfjammodModBlocks.ROOM_RESET.get().asItem());
-			tabData.accept(WolfjammodModBlocks.COUNTER_LAVA_BLOCK.get().asItem());
 			tabData.accept(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK.get().asItem());
 			tabData.accept(WolfjammodModBlocks.ROOM_ASSIGNER.get().asItem());
+			tabData.accept(WolfjammodModBlocks.LAVA_BLOCK.get().asItem());
 		}
 	}
 }

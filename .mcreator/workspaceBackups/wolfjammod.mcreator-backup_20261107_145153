@@ -1,0 +1,352 @@
+{
+  "mod_elements": [
+    {
+      "name": "RoomReset",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wolfjammod/models/block/room_reset.json",
+          "src/main/resources/assets/wolfjammod/models/item/room_reset.json",
+          "src/main/resources/assets/wolfjammod/blockstates/room_reset.json",
+          "src/main/java/net/mcreator/wolfjammod/block/RoomResetBlock.java",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/room_reset.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RoomResetEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_reset_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/RoomResetEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/scripts"
+    },
+    {
+      "name": "CounterEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "counter_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/CounterEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/scripts"
+    },
+    {
+      "name": "CustomColorBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_color_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_14.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_17.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_3.json",
+          "src/main/java/net/mcreator/wolfjammod/block/CustomColorBlockBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_22.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_11.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_0.json",
+          "src/main/resources/assets/wolfjammod/blockstates/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_8.json",
+          "src/main/resources/assets/wolfjammod/models/item/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_10.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_1.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_4.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_7.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_21.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_13.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_16.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_19.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_23.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_18.json",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/custom_color_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_6.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_9.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_12.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_15.json",
+          "src/main/resources/assets/wolfjammod/models/block/custom_color_block_20.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "TintBlocks",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tint_blocks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/TintBlocks.java"
+        ]
+      }
+    },
+    {
+      "name": "BlockColorChange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_color_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/BlockColorChangeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RoomAssignerEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_assigner_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/procedures/RoomAssignerEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RoomAssigner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_assigner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wolfjammod/block/RoomAssignerBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/room_assigner.json",
+          "src/main/resources/assets/wolfjammod/blockstates/room_assigner.json",
+          "src/main/java/net/mcreator/wolfjammod/block/entity/RoomAssignerBlockEntity.java",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/room_assigner.json",
+          "src/main/resources/assets/wolfjammod/models/item/room_assigner.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "LavaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_0.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_3.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_9.json",
+          "src/main/java/net/mcreator/wolfjammod/block/LavaBlockBlock.java",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_16.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_22.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_6.json",
+          "src/main/resources/assets/wolfjammod/blockstates/lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_14.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_19.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_11.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_5.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_8.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_2.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_15.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_18.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_23.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_7.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_4.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_12.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_20.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_1.json",
+          "src/main/resources/data/wolfjammod/loot_table/blocks/lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block.json",
+          "src/main/java/net/mcreator/wolfjammod/block/entity/LavaBlockBlockEntity.java",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_17.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_21.json",
+          "src/main/resources/assets/wolfjammod/models/item/lava_block.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_13.json",
+          "src/main/resources/assets/wolfjammod/models/block/lava_block_10.json"
+        ]
+      },
+      "path": "~/blocks"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playerErrors",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "levelName",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "redResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "greenResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "yellowResults",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "room_count",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wolfjammod.room_reset": "Room Reset",
+      "item.wolfjammod.counter_lava_block": "Counter Lava Block",
+      "item.wolfjammod.custom_color_block": "Custom Color Block",
+      "block.wolfjammod.room_reset": "Room Reset",
+      "block.wolfjammod.custom_color_block": "Custom Color Block",
+      "block.wolfjammod.room_assigner": "Room Assigner",
+      "block.wolfjammod.lava_block": "Custom Color Block",
+      "block.wolfjammod.counter_lava_block": "Counter Lava Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModBlocks.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModBlockEntities.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/wolfjammod/WolfjammodMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/wolfjammod/network/WolfjammodModVariables.java",
+      "src/main/java/net/mcreator/wolfjammod/init/WolfjammodModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "scripts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wolfjammod",
+    "modName": "WolfjamMod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wolfjammod"
+  },
+  "mcreatorVersion": 202600233518
+}

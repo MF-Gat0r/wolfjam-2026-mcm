@@ -1,0 +1,1579 @@
+{
+  "_fv": 89,
+  "_type": "block",
+  "definition": {
+    "texture": "minecraft:lava_still",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "states": [
+      {
+        "texture": "orangemain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "orange"
+          }
+        ]
+      },
+      {
+        "texture": "greymain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "grey"
+          }
+        ]
+      },
+      {
+        "texture": "brownmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "brown"
+          }
+        ]
+      },
+      {
+        "texture": "redmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "red"
+          }
+        ]
+      },
+      {
+        "texture": "yellowmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "yellow"
+          }
+        ]
+      },
+      {
+        "texture": "greenmain",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "green"
+          }
+        ]
+      },
+      {
+        "texture": "greenvar1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "green1"
+          }
+        ]
+      },
+      {
+        "texture": "colorfriendly",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "color_friendly"
+          }
+        ]
+      },
+      {
+        "texture": "orangevar1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "orange1"
+          }
+        ]
+      },
+      {
+        "texture": "du1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "light_green"
+          }
+        ]
+      },
+      {
+        "texture": "du2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "dark_green"
+          }
+        ]
+      },
+      {
+        "texture": "du3",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "red2"
+          }
+        ]
+      },
+      {
+        "texture": "du4",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "orange3"
+          }
+        ]
+      },
+      {
+        "texture": "du5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "peach"
+          }
+        ]
+      },
+      {
+        "texture": "du7",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "coral"
+          }
+        ]
+      },
+      {
+        "texture": "du8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "yellow2"
+          }
+        ]
+      },
+      {
+        "texture": "du9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "pale_cream"
+          }
+        ]
+      },
+      {
+        "texture": "tr1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "hot_pink"
+          }
+        ]
+      },
+      {
+        "texture": "tr2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "magenta"
+          }
+        ]
+      },
+      {
+        "texture": "tr5",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "dark_magenta"
+          }
+        ]
+      },
+      {
+        "texture": "tr6",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "orange_red"
+          }
+        ]
+      },
+      {
+        "texture": "tr7",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "rust_red"
+          }
+        ]
+      },
+      {
+        "texture": "tr8",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "dbrown_red"
+          }
+        ]
+      },
+      {
+        "texture": "tr9",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 11,
+        "customModelName": "Single texture",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "arrayData": [
+                "orange",
+                "orange1",
+                "grey",
+                "brown",
+                "yellow",
+                "red",
+                "green",
+                "green1",
+                "color_friendly",
+                "light_green",
+                "dark_green",
+                "red2",
+                "orange3",
+                "peach",
+                "coral",
+                "yellow2",
+                "pale_cream",
+                "hot_pink",
+                "magenta",
+                "dark_magenta",
+                "orange_red",
+                "rust_red",
+                "dbrown_red",
+                "light_pink"
+              ],
+              "name": "CUSTOM:color_assignment",
+              "type": "string"
+            },
+            "value": "light_pink"
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [
+      {
+        "arrayData": [
+          "color_friendly",
+          "grey",
+          "brown",
+          "red",
+          "yellow",
+          "green",
+          "green2",
+          "orange",
+          "orange2"
+        ],
+        "name": "CUSTOM:enum_color_assignment",
+        "type": "string",
+        "value": "color_friendly"
+      },
+      {
+        "arrayData": [
+          "orange",
+          "orange1",
+          "grey",
+          "brown",
+          "yellow",
+          "red",
+          "green",
+          "green1",
+          "color_friendly",
+          "light_green",
+          "dark_green",
+          "red2",
+          "orange3",
+          "peach",
+          "coral",
+          "yellow2",
+          "pale_cream",
+          "hot_pink",
+          "magenta",
+          "dark_magenta",
+          "orange_red",
+          "rust_red",
+          "dbrown_red",
+          "light_pink"
+        ],
+        "name": "CUSTOM:color_assignment",
+        "type": "string",
+        "value": "orange"
+      }
+    ],
+    "name": "LAVABLOCK",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": true,
+    "creativeTabs": [
+      "BUILDING_BLOCKS",
+      "BREWING"
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": "",
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
+    "lightOpacity": 15,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": "",
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": "GROUND",
+    "isCustomSoundType": false,
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
+    "luminance": {
+      "fixedValue": 0.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityWalksOn": "CounterEntityWalksOnTheBlock",
+    "onBlockPlayedBy": "BlockColorChange",
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      "TAG:stone_ore_replaceables"
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

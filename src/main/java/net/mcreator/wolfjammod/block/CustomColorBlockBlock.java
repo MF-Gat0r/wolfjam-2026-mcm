@@ -17,16 +17,17 @@ import net.mcreator.wolfjammod.procedures.BlockColorChangeProcedure;
 
 public class CustomColorBlockBlock extends Block {
 	public static final EnumProperty<EnumColorAssignmentProperty> ENUM_COLOR_ASSIGNMENT = EnumProperty.create("enum_color_assignment", EnumColorAssignmentProperty.class);
+	public static final EnumProperty<ColorAssignmentProperty> COLOR_ASSIGNMENT = EnumProperty.create("color_assignment", ColorAssignmentProperty.class);
 
 	public CustomColorBlockBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
-		this.registerDefaultState(this.stateDefinition.any().setValue(ENUM_COLOR_ASSIGNMENT, EnumColorAssignmentProperty.COLOR_FRIENDLY));
+		this.registerDefaultState(this.stateDefinition.any().setValue(ENUM_COLOR_ASSIGNMENT, EnumColorAssignmentProperty.COLOR_FRIENDLY).setValue(COLOR_ASSIGNMENT, ColorAssignmentProperty.ORANGE));
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(ENUM_COLOR_ASSIGNMENT);
+		builder.add(ENUM_COLOR_ASSIGNMENT, COLOR_ASSIGNMENT);
 	}
 
 	@Override
@@ -34,7 +35,7 @@ public class CustomColorBlockBlock extends Block {
 		BlockState state = super.getStateForPlacement(context);
 		if (state == null)
 			return null;
-		return state.setValue(ENUM_COLOR_ASSIGNMENT, EnumColorAssignmentProperty.COLOR_FRIENDLY);
+		return state.setValue(ENUM_COLOR_ASSIGNMENT, EnumColorAssignmentProperty.COLOR_FRIENDLY).setValue(COLOR_ASSIGNMENT, ColorAssignmentProperty.ORANGE);
 	}
 
 	@Override
@@ -49,6 +50,28 @@ public class CustomColorBlockBlock extends Block {
 		private final String name;
 
 		private EnumColorAssignmentProperty(String name) {
+			this.name = name;
+		}
+
+		@Override
+		public String getSerializedName() {
+			return this.name;
+		}
+
+		@Override
+		public String toString() {
+			return this.name;
+		}
+	}
+
+	public enum ColorAssignmentProperty implements StringRepresentable {
+		ORANGE("orange"), ORANGE1("orange1"), GREY("grey"), BROWN("brown"), YELLOW("yellow"), RED("red"), GREEN("green"), GREEN1("green1"), COLOR_FRIENDLY("color_friendly"), LIGHT_GREEN("light_green"), DARK_GREEN("dark_green"), RED2("red2"), ORANGE3(
+				"orange3"), PEACH("peach"), CORAL("coral"), YELLOW2(
+						"yellow2"), PALE_CREAM("pale_cream"), HOT_PINK("hot_pink"), MAGENTA("magenta"), DARK_MAGENTA("dark_magenta"), ORANGE_RED("orange_red"), RUST_RED("rust_red"), DBROWN_RED("dbrown_red"), LIGHT_PINK("light_pink");
+
+		private final String name;
+
+		private ColorAssignmentProperty(String name) {
 			this.name = name;
 		}
 

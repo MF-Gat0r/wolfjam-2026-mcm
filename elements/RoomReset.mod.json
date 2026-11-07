@@ -128,6 +128,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": "RoomResetEntityWalksOnTheBlock",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

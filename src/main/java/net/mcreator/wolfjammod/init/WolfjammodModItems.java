@@ -16,14 +16,14 @@ import net.mcreator.wolfjammod.WolfjammodMod;
 public class WolfjammodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(WolfjammodMod.MODID);
 	public static final DeferredItem<Item> ROOM_RESET;
-	public static final DeferredItem<Item> COUNTER_LAVA_BLOCK;
 	public static final DeferredItem<Item> CUSTOM_COLOR_BLOCK;
 	public static final DeferredItem<Item> ROOM_ASSIGNER;
+	public static final DeferredItem<Item> LAVA_BLOCK;
 	static {
 		ROOM_RESET = block(WolfjammodModBlocks.ROOM_RESET);
-		COUNTER_LAVA_BLOCK = block(WolfjammodModBlocks.COUNTER_LAVA_BLOCK);
 		CUSTOM_COLOR_BLOCK = block(WolfjammodModBlocks.CUSTOM_COLOR_BLOCK, new Item.Properties().fireResistant());
 		ROOM_ASSIGNER = block(WolfjammodModBlocks.ROOM_ASSIGNER);
+		LAVA_BLOCK = block(WolfjammodModBlocks.LAVA_BLOCK, new Item.Properties().fireResistant());
 	}
 
 	// Start of user code block custom items

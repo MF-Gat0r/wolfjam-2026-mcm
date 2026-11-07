@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wolfjammod:block/du8",
+    "particle": "minecraft:block/lava_still"
+  },
+  "render_type": "solid"
+}
