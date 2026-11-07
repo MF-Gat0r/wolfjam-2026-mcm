@@ -3,5 +3,6 @@
   "textures": {
     "all": "minecraft:block/water_overlay",
     "particle": "minecraft:block/water_overlay"
-  }
+  },
+  "render_type": "solid"
 }

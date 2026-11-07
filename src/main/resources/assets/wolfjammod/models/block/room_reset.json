@@ -8,5 +8,6 @@
     "south": "minecraft:block/budding_amethyst",
     "west": "minecraft:block/brown_wool",
     "particle": "minecraft:block/birch_planks"
-  }
+  },
+  "render_type": "solid"
 }

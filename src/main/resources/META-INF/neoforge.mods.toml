@@ -20,14 +20,14 @@ authors="MCreator"
 [[dependencies.wolfjammod]]
     modId="neoforge"
     type="required"
-    versionRange="[26.1.2.95,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.wolfjammod]]
     modId="minecraft"
     type="required"
-    versionRange="[26.1.2]"
+    versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 

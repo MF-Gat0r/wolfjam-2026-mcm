@@ -8,5 +8,6 @@
     "south": "minecraft:block/exposed_copper_door_top",
     "west": "minecraft:block/deepslate_diamond_ore",
     "particle": "minecraft:block/calibrated_sculk_sensor_top"
-  }
+  },
+  "render_type": "solid"
 }

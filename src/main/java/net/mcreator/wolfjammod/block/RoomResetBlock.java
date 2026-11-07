@@ -11,8 +11,8 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 public class RoomResetBlock extends Block {
 	public static final BooleanProperty WALKED_ON = BooleanProperty.create("walked_on");
 
-	public RoomResetBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRAVEL).strength(-1, 3600000));
+	public RoomResetBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(-1, 3600000));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WALKED_ON, false));
 	}
 

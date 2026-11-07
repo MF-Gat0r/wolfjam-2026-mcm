@@ -6,24 +6,21 @@ import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.neoforge.common.util.ValueIOSerializable;
+import net.neoforged.neoforge.common.util.INBTSerializable;
 import net.neoforged.neoforge.attachment.AttachmentType;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.level.storage.ValueInput;
-import net.minecraft.world.level.storage.TagValueOutput;
-import net.minecraft.world.level.storage.TagValueInput;
-import net.minecraft.util.ProblemReporter;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.protocol.PacketFlow;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.HolderLookup;
 
 import net.mcreator.wolfjammod.WolfjammodMod;
 
@@ -79,7 +76,7 @@ public class WolfjammodModVariables {
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
 	}
 
-	public static class PlayerVariables implements ValueIOSerializable {
+	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		boolean _syncDirty = false;
 		public double playerErrors = 0;
 		public String levelName = "";
@@ -88,21 +85,23 @@ public class WolfjammodModVariables {
 		public boolean yellowResults = false;
 
 		@Override
-		public void serialize(ValueOutput output) {
-			output.putDouble("playerErrors", playerErrors);
-			output.putString("levelName", levelName);
-			output.putBoolean("redResults", redResults);
-			output.putBoolean("greenResults", greenResults);
-			output.putBoolean("yellowResults", yellowResults);
+		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
+			CompoundTag nbt = new CompoundTag();
+			nbt.putDouble("playerErrors", playerErrors);
+			nbt.putString("levelName", levelName);
+			nbt.putBoolean("redResults", redResults);
+			nbt.putBoolean("greenResults", greenResults);
+			nbt.putBoolean("yellowResults", yellowResults);
+			return nbt;
 		}
 
 		@Override
-		public void deserialize(ValueInput input) {
-			playerErrors = input.getDoubleOr("playerErrors", 0);
-			levelName = input.getStringOr("levelName", "");
-			redResults = input.getBooleanOr("redResults", false);
-			greenResults = input.getBooleanOr("greenResults", false);
-			yellowResults = input.getBooleanOr("yellowResults", false);
+		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
+			playerErrors = nbt.getDouble("playerErrors");
+			levelName = nbt.getString("levelName");
+			redResults = nbt.getBoolean("redResults");
+			greenResults = nbt.getBoolean("greenResults");
+			yellowResults = nbt.getBoolean("yellowResults");
 		}
 
 		public void markSyncDirty() {
@@ -111,16 +110,13 @@ public class WolfjammodModVariables {
 	}
 
 	public record PlayerVariablesSyncMessage(PlayerVariables data) implements CustomPacketPayload {
-		public static final Type<PlayerVariablesSyncMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(WolfjammodMod.MODID, "player_variables_sync"));
-		public static final StreamCodec<RegistryFriendlyByteBuf, PlayerVariablesSyncMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, PlayerVariablesSyncMessage message) -> {
-			TagValueOutput output = TagValueOutput.createWithContext(ProblemReporter.DISCARDING, buffer.registryAccess());
-			message.data.serialize(output);
-			buffer.writeNbt(output.buildResult());
-		}, (RegistryFriendlyByteBuf buffer) -> {
-			PlayerVariablesSyncMessage message = new PlayerVariablesSyncMessage(new PlayerVariables());
-			message.data.deserialize(TagValueInput.create(ProblemReporter.DISCARDING, buffer.registryAccess(), buffer.readNbt()));
-			return message;
-		});
+		public static final Type<PlayerVariablesSyncMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(WolfjammodMod.MODID, "player_variables_sync"));
+		public static final StreamCodec<RegistryFriendlyByteBuf, PlayerVariablesSyncMessage> STREAM_CODEC = StreamCodec
+				.of((RegistryFriendlyByteBuf buffer, PlayerVariablesSyncMessage message) -> buffer.writeNbt(message.data().serializeNBT(buffer.registryAccess())), (RegistryFriendlyByteBuf buffer) -> {
+					PlayerVariablesSyncMessage message = new PlayerVariablesSyncMessage(new PlayerVariables());
+					message.data.deserializeNBT(buffer.registryAccess(), buffer.readNbt());
+					return message;
+				});
 
 		@Override
 		public Type<PlayerVariablesSyncMessage> type() {
@@ -129,11 +125,7 @@ public class WolfjammodModVariables {
 
 		public static void handleData(final PlayerVariablesSyncMessage message, final IPayloadContext context) {
 			if (context.flow() == PacketFlow.CLIENTBOUND && message.data != null) {
-				context.enqueueWork(() -> {
-					TagValueOutput output = TagValueOutput.createWithContext(ProblemReporter.DISCARDING, context.player().registryAccess());
-					message.data.serialize(output);
-					context.player().getData(PLAYER_VARIABLES).deserialize(TagValueInput.create(ProblemReporter.DISCARDING, context.player().registryAccess(), output.buildResult()));
-				}).exceptionally(e -> {
+				context.enqueueWork(() -> context.player().getData(PLAYER_VARIABLES).deserializeNBT(context.player().registryAccess(), message.data.serializeNBT(context.player().registryAccess()))).exceptionally(e -> {
 					context.connection().disconnect(Component.literal(e.getMessage()));
 					return null;
 				});
