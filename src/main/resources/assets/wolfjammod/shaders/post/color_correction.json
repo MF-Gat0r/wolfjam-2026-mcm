@@ -5,7 +5,7 @@
   ],
   "passes": [
     {
-      "name": "color_correction",
+      "name": "wolfjammod:color_correction",
       "intarget": "minecraft:main",
       "outtarget": "swap",
       "use_linear_filter": true
