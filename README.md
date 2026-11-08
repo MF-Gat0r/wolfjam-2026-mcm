@@ -4,7 +4,7 @@
 A NeoForge mod for **Minecraft 1.21.1**.
 
 
-## Requirements
+## Ideal Requirements
 
 | Component | Version |
 | --- | --- |
@@ -31,7 +31,7 @@ A NeoForge mod for **Minecraft 1.21.1**.
 ## 2. Install Minecraft
 
 
-1. Buy and install **Minecraft: Java Edition** from [minecraft.net](https://www.minecraft.net/).
+1. Install **Minecraft: Java Edition** from [minecraft.net](https://www.minecraft.net/). (If you don't own Minecraft see instructions for download via MCreator) at bottom of file.
 2. Open the Minecraft Launcher and sign in.
 3. Under **Installations**, choose **Latest release** and click **Play** once, or create a **1.21.1** installation. NeoForge needs the vanilla 1.21.1 files before it can install.
 4. Close the game when it reaches the main menu.
@@ -105,3 +105,20 @@ A NeoForge mod for **Minecraft 1.21.1**.
 | "Incompatible mod" error | Use NeoForge 21.1.232 or newer and Minecraft exactly 1.21.1. |
 | World doesn't appear | Make sure `level.dat` is directly inside the world folder, not inside a nested folder. |
 | Wrong Java version | Run `java -version`. If it's older than 21, reinstall the JDK and restart the launcher. |
+
+
+##Installment via MCreator
+
+
+1. Install MCreator and JDK 21. Open `wolfjammod.mcreator` through **File → Open workspace**, or use **Import workspace from ZIP file**. Wait for Gradle to finish.
+2. Download the world ZIP and unzip it. You should get a folder containing `level.dat`, not a folder nested inside another folder.
+3. Put that folder in `<workspace>\run\saves\`. For example: `run\saves\New World(2)\level.dat`.
+4. In MCreator, click **Run client**. Pick the world under **Singleplayer**.
+
+
+**Notes:**
+
+
+- `run\saves` is created after the first **Run client**, so launch once before copying the world in.
+- The world was made on Java Minecraft 1.21.1 with the mod, so the mod needs to be loaded. The MCreator dev client does that automatically.
+- Opening a world in the dev client works offline. No account is needed.
