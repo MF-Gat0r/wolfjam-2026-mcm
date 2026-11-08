@@ -12,7 +12,7 @@ A NeoForge mod for **Minecraft 1.21.1**.
 | Minecraft: Java Edition | 1.21.1 |
 | NeoForge | 21.1.232 or newer (for 1.21.1) |
 | WolfjamMod | `wolfjammod-1.0.jar` |
-
+World is in: Mod Files (called WORLDTOIMPORT)
 
 
 ## 1. Install Java
