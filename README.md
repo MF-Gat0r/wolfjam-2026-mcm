@@ -103,7 +103,3 @@ A NeoForge mod for **Minecraft 1.21.1**.
 | "Incompatible mod" error | Use NeoForge 21.1.232 or newer and Minecraft exactly 1.21.1. |
 | World doesn't appear | Make sure `level.dat` is directly inside the world folder, not inside a nested folder. |
 | Wrong Java version | Run `java -version`. If it's older than 21, reinstall the JDK and restart the launcher. |
-
-
-
-Remember to rename `wolfjammod-1.0.jar` and the world folder name to match the actual files you ship.
