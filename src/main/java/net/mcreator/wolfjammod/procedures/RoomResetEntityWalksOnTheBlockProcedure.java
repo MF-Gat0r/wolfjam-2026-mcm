@@ -29,6 +29,11 @@ public class RoomResetEntityWalksOnTheBlockProcedure {
 				_vars.markSyncDirty();
 			}
 		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("END")) {
+			if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
+				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
+				_vars.yellowResults = true;
+				_vars.markSyncDirty();
+			}
 			if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).redResults) {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("press [k] once to apply the colorblind filter for you"), false);
