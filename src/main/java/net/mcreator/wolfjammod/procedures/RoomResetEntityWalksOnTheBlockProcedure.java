@@ -43,19 +43,6 @@ public class RoomResetEntityWalksOnTheBlockProcedure {
 					_player.displayClientMessage(Component.literal("You're not colorblind!"), false);
 			}
 		}
-		if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).redResults) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("press [k] once to apply the colorblind filter for you"), false);
-		} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).greenResults) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("press [k] twice to apply the colorblind filter for you"), false);
-		} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).yellowResults) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("press [k] thrice to apply the colorblind filter for you"), false);
-		} else {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("You're not colorblind!"), false);
-		}
 		{
 			WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 			_vars.playerErrors = 0;
