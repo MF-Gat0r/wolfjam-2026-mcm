@@ -16,18 +16,24 @@ public class RoomResetEntityWalksOnTheBlockProcedure {
 				_vars.redResults = true;
 				_vars.markSyncDirty();
 			}
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("You are colorblind: Protanopia"), false);
 		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("deut") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
 			{
 				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 				_vars.greenResults = true;
 				_vars.markSyncDirty();
 			}
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("You are colorblind: Deuteranopia"), false);
 		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("tri") && entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).playerErrors >= 20) {
 			{
 				WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
 				_vars.yellowResults = true;
 				_vars.markSyncDirty();
 			}
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("You are colorblind: Tritanopia"), false);
 		} else if ((entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).levelName).equals("END")) {
 			if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).redResults) {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
