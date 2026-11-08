@@ -29,7 +29,7 @@ public class RoomAssignerEntityWalksOnTheBlockProcedure {
 					_vars.markSyncDirty();
 				}
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("normal level"), false);
+					_player.displayClientMessage(Component.literal("Level 1: Typical"), false);
 			} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).room_count == 2) {
 				{
 					WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
@@ -37,7 +37,7 @@ public class RoomAssignerEntityWalksOnTheBlockProcedure {
 					_vars.markSyncDirty();
 				}
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("pro level"), false);
+					_player.displayClientMessage(Component.literal("Level 2: Protanopia"), false);
 			} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).room_count == 3) {
 				{
 					WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
@@ -45,7 +45,7 @@ public class RoomAssignerEntityWalksOnTheBlockProcedure {
 					_vars.markSyncDirty();
 				}
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("deut lvl"), false);
+					_player.displayClientMessage(Component.literal("Level 3: Deuteranopia"), false);
 			} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).room_count == 4) {
 				{
 					WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
@@ -53,7 +53,7 @@ public class RoomAssignerEntityWalksOnTheBlockProcedure {
 					_vars.markSyncDirty();
 				}
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("tri lvl"), false);
+					_player.displayClientMessage(Component.literal("Level 4: Tritanopia"), false);
 			} else if (entity.getData(WolfjammodModVariables.PLAYER_VARIABLES).room_count == 5) {
 				{
 					WolfjammodModVariables.PlayerVariables _vars = entity.getData(WolfjammodModVariables.PLAYER_VARIABLES);
