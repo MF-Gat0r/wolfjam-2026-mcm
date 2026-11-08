@@ -66,11 +66,13 @@ A NeoForge mod for **Minecraft 1.21.1**.
 ## 5. Install the World
 
 
-1. Download the world folder or zip we provide. If it's a zip, unzip it first.
-2. In your Minecraft folder, open the `saves` folder.
-3. Copy the world folder into `saves`. The folder should contain `level.dat` and `region/` directly inside it:
+1. Download the zip we provided and unzip it.
+2. Copy the entire folder once unzipped (New World(2))
+3.  Under **Installations**, go to **NeoForge** and click the **folder icon**. This will bring up your **installations** folder. 
+4. Within this folder, open the `saves` folder.
+5. Copy the world folder into `saves`. The folder should contain `level.dat` and `region/` directly inside it:
    ```
-   .minecraft/saves/<world-name>/level.dat
+   .minecraft/saves/New World(2)/level.dat
    ```
 
 
